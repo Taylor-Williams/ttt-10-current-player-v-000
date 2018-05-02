@@ -9,7 +9,8 @@ end
 def turn_count(board)
   turns = 0
   board.each do |space|
-    if space != " " || space != ""
+    if space != " "
       turns ++
     end
+  end
 end
